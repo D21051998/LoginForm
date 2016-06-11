@@ -48,12 +48,11 @@ public class LoginServlet extends HttpServlet {
 			RequestDispatcher dispatcher = request.getRequestDispatcher("home.html");
 			dispatcher.forward(request, response);
 		}
-		else{		
+		else{	
 			   out.println("<script type=\"text/javascript\">");
 			   out.println("alert('User or password incorrect');");
 			   out.println("location='index.html';");
 			   out.println("</script>");				
 		}
 	}
-
 }
