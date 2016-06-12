@@ -96,7 +96,7 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="C:\Users\Deepanshu\Desktop\OIR_resizer.jpg" alt="Republic Of Gamers" width="1200" height="700">
+            <img src="C:\Users\Deepanshu\Desktop\LoginForm\Project1\WebContent\WEB-INF\imagesOIR_resizer.jpg" alt="Republic Of Gamers" width="1200" height="700">
             <div class="carousel-caption">
             <h3>Republican Of Gamers</h3>
         </div>
@@ -135,7 +135,7 @@
     <div class="row">
       <div class="col-md-4">
         <h3>Gaming Peripherals</h3>
-        <img class="img-thumbnail" src="C:\Users\Deepanshu\Downloads\Resized-H7FD6.jpg" alt="Peripherals" width="300" height="400" />
+        <img class="img-thumbnail" src="WEB-INF\images\Resized-H7FD6.jpg" alt="Peripherals" width="300" height="400" />
       </div>
       <div class="col-md-4">
         <h3>Gaming Accessories</h3>
