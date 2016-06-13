@@ -84,7 +84,7 @@ container{
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-          <img class="img-resopnsive" src="C:\Users\Deepanshu\Desktop\Retail-eCommerce-Icon-300x300.png" width="50" hight="50" alt="" />
+          <img class="img-resopnsive" src="images/Retail-eCommerce-Icon-300x300.png" width="50" hight="50" alt="" />
         <a class="navbar-brand" href="#">MyCorp Inc.</a>
       </div>
    </div>

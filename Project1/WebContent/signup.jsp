@@ -55,7 +55,7 @@ h4 {
   <nav class="navbar navbar-default ">
     <div class="container">
       <div class="navbar-header">
-          <img class="img-resopnsive" src="C:\Users\Deepanshu\Desktop\Retail-eCommerce-Icon-300x300.png" width="50" hight="50" alt="" />
+          <img class="img-resopnsive" src="images/Retail-eCommerce-Icon-300x300.png" width="50" hight="50" alt="" />
         <a class="navbar-brand" href="#">MyCorp Inc.</a>
       </div>
    </div>
@@ -174,7 +174,7 @@ h4 {
 <hr>
 <div class="container">
    <footer align="right">
-      <p><font color="#555555" size="5">&copy; MyCorp 2016, Inc.</font></p>
+      <p><font color="#555555" size="5">Email us at: admin@mycorp.com | Contact No.: 1800 3000 300 | &copy; MyCorp 2016, Inc.</font></p>
     </footer>
   </div>
 </body>

@@ -44,8 +44,7 @@
     color: #ffffff;
    }
    .carousel-inner img {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); /* make all photos black and white */
+   
     width: 100%; /* Set width to 100% */
     margin: auto;
    }
@@ -58,6 +57,9 @@
    color: #111;
    font-family: Montserrat, sans-serif;
    }
+   h3,h4{font-family: Montserrat, sans-serif;
+      letter-spacing: 1px;
+    }
   </style>
 </head>
 <body>
@@ -70,7 +72,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <img class="img-resopnsive" src="C:\Users\Deepanshu\Desktop\Retail-eCommerce-Icon-300x300.png" width="50" hight="50" alt="" />
+          <img class="img-resopnsive" src="images/Retail-eCommerce-Icon-300x300.png" width="50" hight="50" alt="" />
         <a class="navbar-brand" href="#">MyCorp Inc.</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
@@ -79,7 +81,7 @@
           <button type="submit" class="btn btn-success">Sign In</button>
         </div>
         </form>
-        <form class="navbar-form navbar-right"  action="signin.jsp">
+        <form action="signup.jsp" class="navbar-form navbar-right"">
         <div class="form-group">
           <button type="submit" class="btn btn-success">Register</button>
         </div>
@@ -96,27 +98,32 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="C:\Users\Deepanshu\Desktop\LoginForm\Project1\WebContent\WEB-INF\imagesOIR_resizer.jpg" alt="Republic Of Gamers" width="1200" height="700">
+            <img src="images/OIR_resizer.jpg" alt="Republic Of Gamers" width="1200" height="700">
             <div class="carousel-caption">
-            <h3>Republican Of Gamers</h3>
+            <h2><font color="WHITE">Republic Of Gamers</font></h2>
+            <p>Brand New ASUS ROG Machines</p>
         </div>
           </div>
           <div class="item">
-            <img src="C:\Users\Deepanshu\Downloads\Resized-T1776.jpg" alt="Asus" width="1200" height="700">
+            <img src="images/Resized-T1776.jpg" alt="Asus" width="1200" height="700">
             <div class="carousel-caption">
-          <h3>Asus ROG</h3>
+          <h2><font color="WHITE"> ASUS ROG G751</font></h2>
+          <h3>Rule The Game</h3>
         </div>
           </div>
           <div class="item">
-           <img src="C:\Users\Deepanshu\Downloads\_20160301142721_Gigabyte_P55W_Descr_003.jpg" alt="Gigabyte" width="1200" height="700">
+           <img src="images/Resized-VGDIX.jpg" alt="Gigabyte" width="1200" height="700">
             <div class="carousel-caption">
-            <h3>Gigabyte</h3>
+            <h2><font color="WHITE"> MSI</font></h2>
+            <p>Play Hard, Stay Silent</p>
             </div>
           </div>
           <div class="item">
-           <img src="C:\Users\Deepanshu\Desktop\alnwr17.jpg" alt="Alienware 17" width="1200" height="700">
+           <img src="images/alnwr17.jpg" alt="Alienware 17" width="1200" height="700">
            <div class="carousel-caption">
-          <h3>Alienware 17</h3>
+          <h2><font color="WHITE"> Alienware 17</font></h2>
+          <h3>Supreme Machine</h3>
+          <p>43.1cm (17) laptop, featuring Intel® Core™ i7 processors, dynamic overclocking and an FHD screen. Add an optional graphics amplifier for superior graphics and gameplay.</p>
         </div>
           </div>
         </div>
@@ -130,25 +137,29 @@
       </a>
     </div>
     <br><br>
- <div class="container"><font color="black"><center>
-   <center><h2>You Wanted it<strong> So </strong>We Brought it<h2></center>
+ <div class="container text-center"><font color="black">
+   <center><h2>You Wanted it<strong> So </strong>We Brought it<h2></center><br>
     <div class="row">
       <div class="col-md-4">
-        <h3>Gaming Peripherals</h3>
-        <img class="img-thumbnail" src="WEB-INF\images\Resized-H7FD6.jpg" alt="Peripherals" width="300" height="400" />
+        <h3><b>Feel The Power Of Connection</b></h3>
+        <img class="img-thumbnail" src="images/Resized-H7FD6.jpg" alt="Peripherals" width="300" height="400" />
+        <h4>With Latest Gaming Peripherals</h4>
       </div>
       <div class="col-md-4">
-        <h3>Gaming Accessories</h3>
-        <img class="img-thumbnail" src="C:\Users\Deepanshu\Downloads\Resized-FZ8I9.jpg" width="300" height="400" alt="Accessories"/>
+        <h3><b>Harness The Power Of Gaming</b></h3>
+        <img class="img-thumbnail" src="images/Resized-FZ8I9.jpg" width="300" height="400" alt="Accessories"/>
+        <h4>With Best Gaming Accessories</h4>
       </div>
       <div class="col-md-4">
-        <h3>Gaming Titles</h3>
-        <img class="img-thumbnail" src="C:\Users\Deepanshu\Desktop\Gaming-News-GLV-Daily-Digest-for-July-30-2014.jpeg" alt="Battlefield 4" width="300" height="400" />
+        <h3><b>Play Like A<br>Legend</b></h3>
+        <img class="img-thumbnail" src="images/Gaming-News-GLV-Daily-Digest-for-July-30-2014.jpeg" alt="Battlefield 4" width="300" height="400" />
+        <h4>Best Rated Titles</h4>
       </div>
-    </div></center></font>
+    </div>
+    </font>
     <hr>
     <footer align="right">
-      <p><font color="black">&copy; MyCorp 2016, Inc.</font></p>
+      <p ><font color="#555555">Email us at: admin@mycorp.com | Contact No.: 1800 3000 300 | &copy; MyCorp 2016, Inc.</font></p>
     </footer>
   </div>
 </body>
